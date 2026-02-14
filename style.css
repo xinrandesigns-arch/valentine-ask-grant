@@ -46,10 +46,10 @@ body {
     aspect-ratio: 3/2;
     padding: 20px 20px 0 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: left;
+    text-align: center;
     background-image: url("window.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -73,10 +73,7 @@ h1 {
     margin:0;
 }
 
-.letter-window.final h1,
-.letter-window.final .final-text {
-    max-width: 300px;
-}
+
 
 p {
     font-size: 40px;

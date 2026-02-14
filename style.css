@@ -55,7 +55,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 12px;
-    gap: 40px;
+    gap: 1px;
     padding-top: 180px;
 
     transform: scale(1.2);

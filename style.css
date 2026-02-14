@@ -46,16 +46,16 @@ body {
     aspect-ratio: 3/2;
     padding: 20px 20px 0 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
     background-image: url("window.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 12px;
-    gap: 1px;
+    gap: 40px;
     padding-top: 180px;
 
     transform: scale(1.2);
@@ -73,6 +73,11 @@ h1 {
     margin:0;
 }
 
+.letter-window.final h1,
+.letter-window.final .final-text {
+    max-width: 300px;
+}
+
 p {
     font-size: 40px;
 }
@@ -86,7 +91,7 @@ p {
 }
 
 .letter-window.final .dog {
-    width: 300px;
+    width: 200px;
 }
 
 /* buttons */
@@ -137,3 +142,6 @@ display: inline-block;
     background-color: rgba(235, 145, 157, 0.5);
     border-radius: 12px;
 }
+
+
+
